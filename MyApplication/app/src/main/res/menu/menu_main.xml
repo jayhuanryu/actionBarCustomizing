@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/add"
+        app:showAsAction="always"
+        android:title="add" />
+
+    <item
+        android:id="@+id/reset"
+        android:icon="@mipmap/ic_launcher"
+        android:title="reset"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@mipmap/ic_launcher"
+        android:title="exit"
+        app:showAsAction="never"/>
+
+</menu>
